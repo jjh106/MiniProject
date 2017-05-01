@@ -1,0 +1,262 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*숨김 콘텐츠*/
+.skip-nav, legend{
+  position: absolute;
+  left:-9999em;
+}
+.skip-nav:focus{
+  z-index: 1000;
+  left:0;
+}
+/*본문 스타일*/
+.header, .products, .services, .blog, .map, .footer{
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-size: 1.4rem;
+  font-family: 'poppins';
+}
+/*스타일 초기화*/
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset{
+	margin:0;
+	padding:0;
+}
+ul{
+  list-style-type: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+}
+a:focus, a:hover{
+  color: red;
+}
+.header{
+  background: #03a67b;
+  height: 800px;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 80px;
+  left: 158px;
+}
+.burger-bar{
+  position: absolute;
+  top: 84px;
+  right: 143px;
+}
+.header-heading{
+  font-size: 52px;
+  color: #fff;
+  padding-top: 225px;
+}
+.header-contents{
+  text-align: center;
+}
+.header-contents p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.header-contents img{
+  margin-top: 40px;
+}
+.header-details{
+  width: 1150px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 145px;
+  margin-top: 100px;
+}
+.second{
+  margin: 0 40px;
+}
+.header-details dl{
+  display: inline-block;
+}
+.header-details dt{
+  font-size: 12px;
+  color: #fff;
+}
+.header-details dd{
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.products{
+  height: 868px;
+  text-align: center;
+  position: relative;
+}
+.products-heading{
+  font-size: 44px;
+  line-height: 44px;
+  color: #333;
+  padding-top: 102px;
+  padding-bottom: 70px;
+}
+.p1, .p2{
+  margin: 0 10px;
+}
+.arr-l{
+  position: absolute;
+  top: 404px;
+  left: 72px;
+}
+.arr-r{
+  position: absolute;
+  top: 404px;
+  right: 72px;
+}
+.dot{
+  padding-top: 45px;
+}
+/*서비스 섹션*/
+.services{
+  height: 723px;
+  text-align: center;
+  background: #fcfcfc;
+}
+.services-heading{
+  font-size: 44px;
+  line-height: 58px;
+  color: #333;
+  padding-top: 95px;
+}
+.services p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.services-contents{
+  margin-top: 60px;
+}
+.services-contents dt{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+}
+.services-contents dd{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.services2{
+  margin: 0 45px;
+}
+.services1, .services2, .services3{
+  display: inline-block;
+  vertical-align: top;
+}
+/*블로그 섹션*/
+.blog{
+  height: 1295px;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.blog-heading{
+  font-size: 44px;
+  line-height: 44px;
+  color: #333;
+  padding-top: 102px;
+  padding-bottom: 58px;
+}
+.blog-contents2{
+  margin-top: 35px;
+}
+.btn-blog{
+  border: 0;
+  width: 235px;
+  height: 50px;
+  border-radius: 4px;
+  background: #03a67b;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 40px;
+}
+/*맵 섹션*/
+.map{
+  height: 705px;
+  text-align: center;
+  position: relative;
+}
+.map-heading{
+  font-size: 44px;
+  line-height: 58px;
+  color: #333;
+  padding-top: 90px;
+}
+.map p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.6);
+}
+form{
+  margin-top: 35px;
+}
+.text-field1{
+  display: inline-block;
+}
+.text-field1 input{
+  width: 235px;
+  height: 50px;
+  border: 0;
+  background: #e8e8e8;
+  padding-left: 15px;
+  border-radius: 5px;
+  color: rgba(51, 51, 51, 0.9);
+  font-size: 14px;
+}
+.text-field2{
+  display: inline-block;
+}
+.text-field2 input{
+  width: 235px;
+  height: 50px;
+  border: 0;
+  background: #e8e8e8;
+  padding-left: 15px;
+  margin: 0 20px;
+  border-radius: 5px;
+  color: rgba(51, 51, 51, 0.9);
+  font-style: 14px;
+}
+.btn-map{
+  width: 235px;
+  height: 52px;
+  border: 0;
+  background: #03a67b;
+  color: #fff;
+  border-radius: 5px;
+}
+fieldset{
+  border: 0;
+}
+.map-detail{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer{
+  height: 250px;
+  text-align: center;
+}
+.footer p{
+  color:rgba(51, 51, 51, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-logo{
+  padding-top: 60px;
+}

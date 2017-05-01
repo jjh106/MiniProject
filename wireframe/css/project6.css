@@ -1,0 +1,307 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*숨김 콘텐츠*/
+.skip-nav{
+  position: absolute;
+  left:-9999em;
+}
+.skip-nav:focus{
+  z-index: 1000;
+  left:0;
+}
+/*본문 스타일*/
+.header, .features, .graph, .say, .tables, .guide, .footer{
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body{
+  font-style: 1.4rem;
+  font-family: 'poppins';
+}
+/*스타일 초기화*/
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset{
+	margin:0;
+	padding:0;
+}
+ul{
+  list-style-type: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+}
+a:focus, a:hover{
+  color: red;
+}
+.header{
+  height: 800px;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+.lang{
+  position: absolute;
+  top: 82px;
+  right: 201px;
+}
+.burger{
+  position: absolute;
+  top: 83px;
+  right: 151px;
+}
+.content{
+  text-align: center;
+}
+.content-heading{
+  font-size: 52px;
+  line-height: 52px;
+  color: #333;
+  margin-top: 57px;
+}
+.content p{
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(51, 51, 51, 0.6);
+  margin-top: 20px;
+}
+.content a{
+  display: block;
+  padding-top: 278px;
+}
+.features{
+  height: 470px;
+  text-align: center;
+}
+.features-heading{
+  font-size: 44px;
+  line-height: 44px;
+  color: #333;
+  padding-top: 100px;
+}
+.features p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+  margin-top: 10px;
+}
+.features-details dl{
+  display: inline-block;
+  margin-top: 60px;
+}
+.features-details dt{
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.features-details dd{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.second{
+  margin: 0 70px;
+}
+.graph{
+  height: 732px;
+  text-align: center;
+}
+.graph-heading{
+  font-size: 44px;
+  color: #333;
+  padding-top: 90px;
+}
+.graph p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.graph img{
+  margin-top: 45px;
+}
+.say{
+  height: 600px;
+  text-align: center;
+  position: relative;
+}
+.say-heading{
+  font-size: 44px;
+  color: #333;
+  padding-top: 100px;
+}
+.say > p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.say-details{
+  margin-top: 105px;
+}
+.say-details p{
+  display: inline-block;
+  color: rgba(51, 51, 51, 0.2);
+  font-size: 16px;
+}
+.quo1{
+  position: absolute;
+  top: 321px;
+  left: 71px;
+}
+.quo2{
+  position: absolute;
+  top: 321px;
+  left: 536px;
+}
+.quo3{
+  position: absolute;
+  top: 321px;
+  right: 412px;
+}
+.p1{
+  position: absolute;
+  top: 319px;
+  left: 125px;
+}
+.p2{
+  position: absolute;
+  top: 319px;
+  left: 585px;
+}
+.p3{
+  position: absolute;
+  top: 319px;
+  right: 79px;
+}
+.doe{
+  position: absolute;
+  bottom: 99px;
+  left: 489px;
+}
+.tables{
+  height: 840px;
+  text-align: center;
+  position: relative;
+}
+.tables-heading{
+  font-size: 44px;
+  color: #333;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+.btn-1{
+  width: 309px;
+  height: 50px;
+  position: absolute;
+  bottom: 98px;
+  left: 183px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  color: #03a67b;
+}
+.btn-2{
+  background: #03a67b;
+  width: 309px;
+  height: 50px;
+  position: absolute;
+  bottom: 98px;
+  left: 564px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.btn-3{
+  width: 309px;
+  height: 50px;
+  position: absolute;
+  bottom: 98px;
+  right: 185px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  color: #03a67b;
+}
+.guide{
+  height: 592px;
+  text-align: center;
+  position: relative;
+}
+.guide-heading{
+  font-size: 44px;
+  color: #333;
+  padding-top: 100px;
+}
+.fl1{
+  position: absolute;
+  top: 201px;
+  left: 150px;
+}
+.fl2{
+  position: absolute;
+  top: 201px;
+  right: 182px;
+}
+.guide p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.guide-details{
+  text-align: left;
+}
+.guide-details p{
+  margin-bottom: 25px;
+}
+.btn-guide{
+  position: absolute;
+  bottom: 99px;
+  left: 603px;
+  width: 235px;
+  height: 50px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  background: #fff;
+  color: #03a67b;
+}
+.footer{
+  height: 224px;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+
+}
+.footer-list{
+  padding-top: 70px;
+  padding-left: 150px;
+}
+.footer li{
+  display: inline-block;
+}
+.footer li a{
+  color: #333;
+  font-size: 14px;
+  padding-left: 15px;
+}
+.down{
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 54px;
+}
+.down p{
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.7);
+  position: absolute;
+  top: 70px;
+  right: 442px;
+}
+.google{
+  position: absolute;
+  top: 56px;
+  right: 150px;
+}
+.apple{
+  position: absolute;
+  top: 56px;
+  right: 295px;
+}
+.footer > img{
+  margin-top: 29px;
+  margin-left: 165px;
+}

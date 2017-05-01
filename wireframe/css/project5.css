@@ -1,0 +1,405 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*숨김 콘텐츠*/
+.skip-nav{
+  position: absolute;
+  left:-9999em;
+}
+.skip-nav:focus{
+  z-index: 1000;
+  left:0;
+}
+/*본문 스타일*/
+.header, .contents-01, .contents-02, .features, .portfolio, .crew, .contact, .footer{
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body{
+  font-style: 1.4rem;
+  font-family: 'poppins';
+}
+/*스타일 초기화*/
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset{
+	margin:0;
+	padding:0;
+}
+ul{
+  list-style-type: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+}
+a:focus, a:hover{
+  color: red;
+}
+/*헤더*/
+.header{
+  height: 800px;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+/*메뉴*/
+.navigation ul{
+  display: inline-block;
+  margin-top: 85px;
+  margin-left: 249px;
+}
+.menu li{
+  display: inline-block;
+}
+.menu li a{
+  color: rgba(51, 51, 51, 0.9);
+  padding-right: 10px;
+  font-size: 14px;
+}
+.header-picture{
+  text-align: center;
+}
+/*멤버*/
+.signup{
+  position: absolute;
+  top: 71px;
+  right: 150px;
+  border: 1px solid #03a67b;
+  border-radius: 4px;
+  padding: 13px 36px 10px 36px;
+  color: #03a67b;
+  font-size: 14px;
+}
+.login{
+  position: absolute;
+  top: 86px;
+  right: 295px;
+  margin-right: 10px;
+  color: rgba(51, 51, 51, 0.9);
+  font-size: 14px;
+}
+.content{
+  text-align: center;
+}
+.content-heading{
+  font-size: 52px;
+  line-height: 52px;
+  color: #333;
+  padding-top: 140px;
+}
+.content p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.6);
+}
+.header-picture{
+  position: absolute;
+  top: 425px;
+  right: 273px;
+}
+/*컨텐츠1 섹션*/
+.contents-01{
+  height: 600px;
+  position: relative;
+}
+.picture-01{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+}
+.contents-01 > img{
+  position: absolute;
+  top: 186px;
+  right: 437px;
+}
+.detail-01{
+  position: absolute;
+  top: 217px;
+  right: 178px;
+}
+.heading-01{
+  font-size: 44px;
+  color: #333;
+}
+.detail-01 p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.6);
+}
+/*컨텐츠2 섹션*/
+.contents-02{
+  height: 600px;
+  position: relative;
+}
+.picture-02{
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+.contents-02 > img{
+  position: absolute;
+  top: 186px;
+  left: 150px;
+}
+.detail-02{
+  position: absolute;
+  top: 217px;
+  left: 150px;
+}
+.heading-02{
+  font-size: 44px;
+  color: #333;
+}
+.detail-02 p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.6);
+}
+/*features 섹션*/
+.features{
+  background: #fcfcfc;
+  height: 700px;
+  position: relative;
+}
+.features-01{
+  position: absolute;
+  top: 103px;
+  left: 150px;
+}
+.features-heading{
+  font-size: 44px;
+  color: #333;
+}
+.features p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.first-icon{
+  position: absolute;
+  top: 259px;
+  left: 150px;
+}
+.third-icon{
+  position: absolute;
+  top: 451px;
+  left: 150px;
+}
+.second-icon{
+  position: absolute;
+  top: 259px;
+  left: 730px;
+}
+.fourth-icon{
+  position: absolute;
+  top: 451px;
+  left: 730px;
+}
+.first dl{
+  position: absolute;
+  top: 288px;
+  left: 337px;
+}
+.third dl{
+  position: absolute;
+  top: 480px;
+  left: 337px;
+}
+.second dl{
+  position: absolute;
+  top: 288px;
+  left: 916px;
+}
+.fourth dl{
+  position: absolute;
+  top: 480px;
+  left: 916px;
+}
+.features dt{
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 10px;
+}
+.features dd{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.5);
+}
+/*포트폴리오 섹션*/
+.portfolio{
+  height: 732px;
+  text-align: center;
+  position: relative;
+}
+.portfolio-heading{
+  font-size: 44px;
+  line-height: 58px;
+  color: #333;
+  padding-top: 95px;
+}
+.portfolio p{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.portfolio-contents{
+  margin-top: 40px;
+}
+.por-first{
+  position: absolute;
+  top: 477px;
+  left: 240px;
+}
+.por-second{
+  position: absolute;
+  top: 477px;
+  left: 614px;
+}
+.por-third{
+  position: absolute;
+  top: 477px;
+  right: 235px;
+}
+.portfolio-contents dt{
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+}
+.portfolio-contents dd{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.portfolio1, .portfolio2, .portfolio3{
+  display: inline-block;
+  vertical-align: top;
+}
+.arr-l{
+  position: absolute;
+  bottom: 268px;
+  left: 100px;
+}
+.arr-r{
+  position: absolute;
+  bottom: 268px;
+  right: 100px;
+}
+/*팀 섹션*/
+.crew{
+  background: #fcfcfc;
+  height: 613px;
+  text-align: center;
+}
+.crew-info{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.crew-heading{
+  font-size: 44px;
+  line-height: 44px;
+  color: #333;
+  padding-top: 101px;
+}
+.crew-1{
+  position: relative;
+  margin-right: -250px;
+}
+.crew-1 a{
+  position: absolute;
+  top: 278px;
+  left: 115px;
+}
+.crew-2{
+  position: relative;
+  margin-right: -250px;
+}
+.crew-2 a{
+  position: absolute;
+  top: 278px;
+  left: 115px;
+}
+.crew-3{
+  position: relative;
+  margin-right: -250px;
+}
+.crew-3 a{
+  position: absolute;
+  top: 278px;
+  left: 115px;
+}
+.crew-4{
+  position: relative;
+}
+.crew-4 a{
+  position: absolute;
+  top: 278px;
+  left: 115px;
+}
+.pp{
+  padding: 0 10px;
+}
+/*연락 섹션*/
+.contact{
+  height: 420px;
+  text-align: center;
+}
+.contact-heading{
+  font-size: 44px;
+  color: #333;
+  padding-top: 80px;
+}
+.contact p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.6);
+}
+.contact a{
+  display: inline-block;
+  margin-top: 30px;
+}
+.sns-center{
+  margin: 0 10px;
+}
+/*푸터*/
+.footer{
+  height: 311px;
+  position: relative;
+  border-top: 1px solid #ebebeb;
+}
+.footer-heading{
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+.footer-heading p{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.7);
+}
+.first-col{
+  position: absolute;
+  top: 80px;
+  left: 440px;
+}
+.second-col{
+  position: absolute;
+  top: 80px;
+  left: 730px;
+}
+.third-col{
+  position: absolute;
+  top: 80px;
+  left: 1020px;
+}
+.col h3{
+  font-size: 14px;
+  color: #333;
+}
+.col li{
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.7);
+  margin-top: 10px;
+}
