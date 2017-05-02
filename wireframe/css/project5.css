@@ -34,9 +34,7 @@ ul{
 a:link, a:visited{
   text-decoration: none;
 }
-a:focus, a:hover{
-  color: red;
-}
+
 /*헤더*/
 .header{
   height: 800px;
@@ -69,11 +67,16 @@ a:focus, a:hover{
   position: absolute;
   top: 71px;
   right: 150px;
-  border: 1px solid #03a67b;
+  border: 2px solid #03a67b;
   border-radius: 4px;
   padding: 13px 36px 10px 36px;
   color: #03a67b;
   font-size: 14px;
+}
+.signup:hover {
+  background: #03a67b;
+  color: #fff;
+  transition: all .5s;
 }
 .login{
   position: absolute;
