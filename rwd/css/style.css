@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+body{
+  font-size: 1.4rem;
+}
+
+/*스타일 초기화*/
+html,body,div,header,nav,section,aside,article,footer,figure,figcaption,
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,fieldset{
+	margin:0;
+	padding:0;
+}
+ul{
+  list-style-type: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+fieldset {
+  border: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;  
+}
+
+/* 숨김 */
+.skip-nav, .hidden, legend {
+  position: absolute;
+  left: -999em;
+}
+.skip-nav:focus{
+  left: 0;
+  z-index: 100;
+}
+
+/* mobile */
+@media screen and (max-width: 759px){
+ /* header */
+ .header {
+   background: #535150;
+   display: flex;
+   justify-content: space-between;
+ }
+ .navigation {
+   display: none;
+ }
+ .logo {
+  display: inline-block;
+  margin: 20px 30px;
+}
+ .menu-bar {
+  margin: 0 30px;
+}
+
+ /* video */
+ .video {
+   background: #f8d2c5;
+   padding: 100px 30px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ /* work */
+ .work {
+   background: #fff;
+   padding-bottom: 25px;
+ }
+ .work-heading {
+   text-align: center;
+   color: #5a5e65;
+   margin: 35px 0;
+   position: relative;
+ }
+ .work-contents {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   flex-flow: row wrap;
+ }
+ .work-contents p {
+   display: none;
+ }
+ .work-contents div figcaption {
+   margin-bottom: 25px;
+ }
+
+ /* carousel */
+ .carousel {
+   background: #f8d2c5;
+   position: relative;
+ }
+ .carousel div {
+   text-align: center;
+   padding: 120px 0 100px 0;
+ }
+ .carousel-prev {
+   position: absolute;
+   left: 30px;
+   top: 100px;
+ }
+ .carousel-next {
+   position: absolute;
+   right: 30px;
+   top: 100px;
+ }
+ /* artist */
+ .artist {
+   background: #fff;
+ }
+ .artist-heading {
+   text-align: center;
+   margin: 35px 0 45px;
+ }
+ .authors {
+   display: flex;
+   flex-flow: row wrap;
+   width: 100%;
+ }
+ .authors > div {
+   margin-bottom: 45px;   
+ }
+ .author-1 {
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.2rem;
+ }
+ .author-1 img {
+   margin-left: 30px;
+ }
+ .author-1 div {
+   padding-top: 10px;
+   margin: 0 85px 0 40px;
+ }
+ .author-1 p {
+   font-size: 1rem;
+ }
+ .author-2 {
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.2rem;
+ }
+ .author-2 img {
+   margin-left: 30px;
+ }
+ .author-2 div {
+   padding-top: 10px;
+   margin: 0 85px 0 40px;
+ }
+ .author-2 p {
+   font-size: 1rem;
+ }
+ .author-3 {
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.2rem;
+ }
+ .author-3 img {
+   margin-left: 30px;
+ }
+ .author-3 div {
+   padding-top: 10px;
+   margin: 0 85px 0 40px;
+ }
+ .author-3 p {
+   font-size: 1rem;
+ }
+ .author-4 {
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.2rem;
+ }
+ .author-4 img {
+   margin-left: 30px;
+ }
+ .author-4 div {
+   padding-top: 10px;
+   margin: 0 85px 0 40px;
+ }
+ .author-4 p {
+   font-size: 1rem;
+ }
+
+ /* map */
+ .map img {
+  width: 100%;
+ }
+ /* qna */
+ .qna {
+   background: #fff;
+ }
+ .qna-heading {
+   text-align: center;
+   margin-top: 30px;
+ }
+ .qna form {
+   margin: 30px 30px 0;
+   display: flex;
+   flex-flow: row wrap;
+   color: #abacad;
+ }
+ .qna input, .qna textarea, .qna button {
+   width: 100%;
+ }
+ .qna input {
+   padding: 20px 0 20px 10px;
+   border: none;
+   margin-bottom: 25px;
+ }
+ .qna textarea {
+   border: none;
+   margin-bottom: 20px;
+   padding: 20px 0 0 10px;
+   font-weight: 600;
+ }
+ .qna button {
+   background: #4d4b4a;
+   padding: 25px 155px;
+   color: #fff;
+   font-weight: bold;
+ }
+ /* footer */
+ .footer {
+   background: purple;
+ }
+}
+
+/* tablet */
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  
+}
+
+/* desktop */
+@media screen and (min-width: 960px) {
+  
+}
