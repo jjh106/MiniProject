@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>반응형 웹 페이지</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
   <a href="#" class="skip-nav">본문 바로가기</a>
@@ -16,10 +17,10 @@
           <img src="./images/logo.png" alt="logo">
         </a>
       </h1>
-      <button type="button" class="menu-bar"><img src="./images/burger.png" alt="menu"></button>
+      <button type="button" class="menu-bar" onclick="$('.mb-menu').stop().toggle(300)"><img src="./images/burger.png" alt="menu"></button>
       <nav class="navigation">
         <h2 class="hidden">메인메뉴</h2>
-        <ul>
+        <ul class="mb-menu">
           <li><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">WORK</a></li>
@@ -115,7 +116,18 @@
         </fieldset>
       </form>
     </section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <span>Copyright &copy; 2016</span>
+    </footer>
   </div>
+
+<script>
+  $(window).resize(function(){
+  var width_size = window.outerWidth;
+  if (width_size >= 760) {
+    $('.mb-menu').css('display', 'none');
+  }
+})
+</script>
 </body>
 </html>

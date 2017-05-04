@@ -45,23 +45,45 @@ fieldset {
 
 /* mobile */
 @media screen and (max-width: 759px){
+ 
  /* header */
  .header {
    background: #535150;
    display: flex;
    justify-content: space-between;
  }
- .navigation {
+ /*.navigation {
    display: none;
- }
+ }*/
  .logo {
   display: inline-block;
   margin: 20px 30px;
 }
  .menu-bar {
-  margin: 0 30px;
+  margin-left: 350px;
+  outline: none;
+  padding: 0;
 }
-
+ .mb-menu {
+  display: none;
+  background: #413e3d;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+  .mb-menu li a {
+    display: block;
+    width: 100%;
+    color: #ecf0f1;
+    padding: .8rem 0;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1rem;
+}
+  .mb-menu li a:hover {
+    color: #f5c5b4;
+}
  /* video */
  .video {
    background: #f8d2c5;
@@ -215,12 +237,16 @@ fieldset {
    padding: 20px 0 20px 10px;
    border: none;
    margin-bottom: 25px;
+   border-bottom: 2px solid #a2a2a2;
+   outline: none;
  }
  .qna textarea {
    border: none;
+   border-bottom: 2px solid #a2a2a2;
    margin-bottom: 20px;
    padding: 20px 0 0 10px;
    font-weight: 600;
+   outline: none;
  }
  .qna button {
    background: #4d4b4a;
@@ -230,7 +256,10 @@ fieldset {
  }
  /* footer */
  .footer {
-   background: purple;
+   background: #d6d2d1;
+   text-align: center;
+   padding: 25px 0;
+   margin-top: 25px;
  }
 }
 
