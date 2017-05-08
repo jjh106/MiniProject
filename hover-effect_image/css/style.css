@@ -69,16 +69,32 @@ h1 {
 .item-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   width: 300px;
   height: 300px;
-  padding: 30px;
   background: black;
 }
-.item-heading::after {
+.heading-1::after {
   content: '';
   display: block;
   width: 45px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+.heading-2::after {
+  content: '';
+  display: block;
+  width: 160px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+.heading-3::after {
+  content: '';
+  display: block;
+  width: 135px;
   height: 2px;
   margin: 10px 0;
   background-color: #fff;
