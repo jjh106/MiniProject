@@ -24,3 +24,19 @@
 
 ---
 
+### # Responsible Image
+
+> 서로 다른 크기의 이미지를 사용하여 같은크기의 반응형 이미지 만들기
+>
+> Break Point : 640px , 960px
+
+* #### [No.1](https://jjh106.github.io/MiniProject/responsible_image/content_image/index.html)
+
+  * 이미지 태그를 활용한 반응형 이미지
+
+* #### [No.2](https://jjh106.github.io/MiniProject/responsible_image/background_image/index.html)
+
+  * 배경이미지를 활용한 반응형 이미지
+
+---
+
