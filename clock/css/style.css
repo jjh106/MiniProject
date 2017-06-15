@@ -1,7 +1,10 @@
 @charset "UTF-8";
+
 html {
-	background-color: #000;
+	background-image: url('../images/dark.jpg');
+	background-size: cover;
 }
+
 body {
 	height: 100vh;
 	display: flex;
@@ -9,6 +12,7 @@ body {
 	align-items: center;
 	margin: 0;
 }
+
 .wrapper {
 	display: flex;
 	justify-content: center;
@@ -20,6 +24,7 @@ body {
 	border: 2px solid #fff;
 	border-radius: 15px;
 }
+
 .calender {
 	width: 100%;
 	margin-bottom: -15%;
