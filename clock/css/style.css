@@ -1,0 +1,37 @@
+@charset "UTF-8";
+html {
+	background-color: #000;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 500px;
+	height: 250px;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+.calender {
+	width: 100%;
+	margin-bottom: -15%;
+	font-size: 25px;
+	font-weight: 600;
+	color: #46649B;
+}
+
+.clock {
+	width: 100%;
+	margin-top: -15%;
+	font-size: 40px;
+	font-weight: 800;
+	color: #fff;
+}
