@@ -4,20 +4,20 @@ var zero = function(number, position) {
 }
 
 var printToDay = function() {
-	var clock = document.querySelector('.clock'),
+	var clock 	 = document.querySelector('.clock'),
 			calender = document.querySelector('.calender'),
-			now = new Date(),
-			year = now.getFullYear(),
-			month = zero(now.getMonth() + 1, 2),
-			date = zero(now.getDate(), 2),
-			day = now.getDay(),
-			hours = zero(now.getHours(), 2),
-			mins = zero(now.getMinutes(), 2),
-			seconds = zero(now.getSeconds(), 2),
-			amPm = 'AM',
-			week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-			yoil = week[day],
-			ymdd = year + '-' + month + '-' + date + " ( " + yoil + " )";
+			now 		 = new Date(),
+			year     = now.getFullYear(),
+			month    = zero(now.getMonth() + 1, 2),
+			date     = zero(now.getDate(), 2),
+			day      = now.getDay(),
+			hours    = zero(now.getHours(), 2),
+			mins     = zero(now.getMinutes(), 2),
+			seconds  = zero(now.getSeconds(), 2),
+			amPm     = 'AM',
+			week     = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+			yoil     = week[day],
+			ymdd     = year + '-' + month + '-' + date + " ( " + yoil + " )";
 	
 	if(hours >= 12) {
 		amPm = "PM";
@@ -31,10 +31,7 @@ var printToDay = function() {
 	
 	clock.innerHTML = hours + ":" + mins + ":" + seconds + " " + '<span style="font-size: 30px;">' + amPm + '</span>';
 
-	setTimeout('printToDay()', 1000);
 }
+	setInterval(printToDay, 1000);
 
-window.onload = function() {
-	printToDay();
-}
 
