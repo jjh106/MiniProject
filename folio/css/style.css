@@ -99,7 +99,8 @@ button {
 
 /* 스크롤 시 헤더 고정 */
 .active {
-	background-color: transparent;
+	background-color: #fff;
+	opacity: 0.8;
 	position: fixed;
 	top: 0;
 	left: 0;
