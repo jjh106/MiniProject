@@ -304,10 +304,6 @@ button {
 		display: none;
 	}
 
-	.active {
-		background-color: #fff;
-	}
-
 /* box size 조절 */
 	.box-1 {
 		width: 50%;
