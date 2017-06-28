@@ -1,12 +1,12 @@
 # MiniProject
 
-### # [LayOut연습](https://jjh106.github.io/MiniProject/wireframe/index.html)
+### [LayOut연습](https://jjh106.github.io/MiniProject/wireframe/index.html)
 
 > float, flex-box 등을 활용한 배치 연습과제
 
 ---
 
-### # [RWD연습](https://jjh106.github.io/MiniProject/rwd/index.html)
+### [RWD연습](https://jjh106.github.io/MiniProject/rwd/index.html)
 
 > breaking point 
 >
@@ -16,15 +16,15 @@
 
 ---
 
-### # [Image hover](https://jjh106.github.io/MiniProject/hover-effect_image/index.html)
+### [Image hover](https://jjh106.github.io/MiniProject/hover-effect_image/index.html)
 
 ---
 
-### # [Button hover](https://jjh106.github.io/MiniProject/hover-effect_button/index.html)
+### [Button hover](https://jjh106.github.io/MiniProject/hover-effect_button/index.html)
 
 ---
 
-### # Responsible Image
+### Responsible Image
 
 > 서로 다른 크기의 이미지를 사용하여 같은크기의 반응형 이미지 만들기
 >
@@ -40,15 +40,15 @@
 
 ---
 
-### # [Carousel](https://jjh106.github.io/MiniProject/carousel/index.html)
+### [Carousel](https://jjh106.github.io/MiniProject/carousel/index.html)
 
 ---
 
-### # [Flip card](https://jjh106.github.io/MiniProject/flip-card/index.html)
+### [Flip card](https://jjh106.github.io/MiniProject/flip-card/index.html)
 
 ---
 
-### # [Clock](https://jjh106.github.io/MiniProject/clock/index.html)
+### [Clock](https://jjh106.github.io/MiniProject/clock/index.html)
 
 > 현재 날짜와 시간을 실시간으로 나타내는 시계
 
@@ -102,5 +102,22 @@ var zero = function(num, digit) {
 
 ---
 
+### [folio](https://jjh106.github.io/MiniProject/folio/index.html)
 
+> 반응형 웹페이지 연습 및 간단한 자바스크립트 구현.
+>
+> mobile first
+>
+> mobile : ~759px
+>
+> tablet : 760px ~ 1023px
+>
+> desktop : 1024px ~
+
+##### *추가해야할 부분
+
+* 모바일뷰의 사이드바 기능 구현
+* 오토 슬라이드 기능 구현
+
+---
 
